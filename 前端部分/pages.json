@@ -1,0 +1,50 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+			}
+		}
+	    ,{
+            "path" : "pages/tips/tips",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/search-results/search-results",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "shuai3",
+		"navigationBarBackgroundColor": "#424242",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"selectedColor":"#d81e06",
+		"list":[
+			{
+				"text":"首页",
+				"iconPath":"static/icon/home.png",
+				"selectedIconPath":"static/icon/home1.png",
+				"pagePath":"pages/index/index"
+			},
+			{
+				"text":"问题",
+				"iconPath":"static/icon/list.png",
+				"selectedIconPath":"static/icon/list1.png",
+				"pagePath":"pages/tips/tips"
+			},
+			{
+				"text":"我的",
+				"iconPath":"static/icon/my.png",
+				"selectedIconPath":"static/icon/my1.png",
+				"pagePath":"pages/my/my"
+			}
+		]
+	}
+}
