@@ -13,10 +13,10 @@
 		},
 		onLoad(res){
 			uni.request({
-				url: 'http://qdbwjf.com/bwydbg/api/work/pgd/getfwqx',
+				url: 'http://',
 				method: 'POST',
 				data: {
-					'khsbh': '37021219740426251X01'
+					'khsbh': '***'
 				},
 				success: res => {
 					console.log(res)

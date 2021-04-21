@@ -43,7 +43,7 @@
 					mask: true
 				});
 				uni.request({
-					url: 'http://jp-tyo-dvm-2.sakurafrp.com:61151/test/',
+					url: 'http://test/',
 					method: 'POST',
 					header: {
 						'content-type': 'application/x-www-form-urlencoded' //自定义请求头信息
